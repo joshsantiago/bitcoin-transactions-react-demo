@@ -1,0 +1,42 @@
+.Transactions {
+    max-height: 70%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Transactions .ui.inverted.segment, .ui.primary.inverted.segment {
+    background: inherit;
+    padding: 0;
+}
+
+.Transactions .ui.inverted.segment .list .item {
+    padding-bottom: 20px;
+}
+
+.Transactions .ui.inverted.segment .list .item .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Transactions .ui.inverted.segment .list .item .content .addresses {
+    width: 290px;
+    word-wrap: break-word;
+}
+
+.Transactions .ui.inverted.segment .list .item .content .addresses i {
+    display: block;
+    margin: 10px auto;
+    color: #2feb91;
+}
+
+.Transactions .ui.inverted.segment .list .item .content .amount {
+    font-weight: bold;
+}
+
+.Transactions .ui.inverted.placeholder, .ui.inverted.placeholder .image.header:after, .ui.inverted.placeholder .line, .ui.inverted.placeholder .line:after, .ui.inverted.placeholder>:before {
+    background-color: #201d2d;
+}
+
+
+
+

@@ -1,0 +1,20 @@
+.AsideLeft {
+    background-color: #201d2d;
+    width: 100%;
+    max-width: 500px;
+    color: #ffffff;
+    padding: 14px;
+}
+
+.AsideLeft h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    opacity: 0.4;
+}
+
+.AsideLeft .ui.divider:not(.vertical):not(.horizontal) {
+    border-top: 1px solid rgba(34,36,38,.15);
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
