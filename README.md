@@ -1,4 +1,4 @@
-# Bitcoin Transaction ReactJS Demo
+# Bitcoin Transaction ReactJS Demo:
 
 This project uses react and redux to display real time unconfirmed Bitcoin transactions. The data is being fed to this application using blockchain.info API with websockets for a persistent connection.
 
